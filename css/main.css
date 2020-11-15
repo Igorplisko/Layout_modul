@@ -1,0 +1,292 @@
+* { 
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+	max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.navigation {
+  width: 60.1%;
+}
+
+.menu {
+ display: flex;
+ justify-content: space-between; 
+ list-style: none;
+ text-transform: uppercase;
+ padding: 0;
+ margin-left: 17px;
+}
+
+li.dsw_li {
+  list-style: none;
+
+}
+
+li.dsw_li a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 17px;
+  color: black;
+  font-weight: bold; /* This line can be removed to match the design.*/
+}
+
+.banner {
+  background-image: url(../img/banner-image-1.jpg);
+  height: 418px;
+  background-size: cover;	
+  position: relative;
+  color: white;
+  overflow: hidden;
+  
+}
+
+.header {
+ padding: 5px 0;
+ display: flex;
+ font-size: 16px;
+ line-height: 17px;
+ margin-bottom: 4px;
+ justify-content: space-between;
+ letter-spacing: -0.025em;
+}
+
+.text:nth-child(2) {
+  background-color: #f39200;
+  color: white; 
+  padding: 39px 58px;
+}
+
+.text_1 {
+  padding: 42px 67px 101px 47px;
+}
+
+.text_1 h2{
+  line-height: 24px;
+  font-size: 24px;
+  color: rgba(0,0,0,0.77);
+  padding-bottom: 16px;
+  letter-spacing: 0.12em;
+
+}
+
+.text_1 p {
+  font-size: 15px;  
+  line-height: 24px;
+  color: rgba(0,0,0,0.57);
+  padding-bottom: 34px;
+
+}
+
+.text_1 span {
+ font-size: 15px;  
+ line-height: 24px;
+ color: rgba(0,0,0,0.57);
+}
+
+.text h2{ 
+ line-height: 24px;
+ font-size: 24px;
+ padding-bottom: 24px;
+ letter-spacing: 0.12em;
+}
+
+.text time{
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.12em;
+  display: inline-block;
+  padding-bottom: 1%;
+}
+.text span{
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  color: rgba(255,255,255,0.7);
+}
+.text p{
+ font-size: 15px;
+ line-height: 24px;
+ color: rgba(255,255,255,0.7);
+ padding: 1.5% 0% 0.1% 0; 
+ padding: 0.5% 0;
+}
+
+a.btn_orange {
+  display: inline-block;
+  background-color: #f39200;
+  color: #ffffff;
+  text-decoration: none;
+  height: 35px;
+  width: 29%;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 3px;
+  border: 1px solid white;
+  text-align: center;
+  padding-top: 6px;
+  margin: 27px 35.8% 0;
+}
+
+.phrase_background {
+  background: rgba(0,159,227,0.68);
+  width: 48.6%;
+  height: 44%;
+  margin-top: 111px;
+}
+
+.background-1{
+  background-image: url(../img/content-image-1.jpg);
+}
+
+.background-2 {
+  background-image: url(../img/content-image-2.jpg);
+}
+
+.background-3{
+  background-image: url(../img/content-image-3.jpg);
+}
+
+.background-4{
+  background-image: url(../img/content-image-4.jpg); 
+}
+
+.background-1,
+.background-2,
+.background-3,
+.background-4 {
+  height: 240px;
+  display: flex;
+}
+
+.conteiner {
+ flex-wrap: wrap;
+ display: flex;
+ align-items: stretch;
+}
+
+.content {
+ width: 50%;	
+}
+
+a.btn {
+  background-color: #0ea1e2;
+  text-align: center;
+  padding-top: 6px;
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  height: 38px;
+  padding: 10px 55px;
+  padding-bottom: 12px;
+  background-color: rgba(0,159,227,0.9);
+  color: rgba(255,255,255,0.9);
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.23em;
+  align-self: flex-end;
+  margin: 12px 0;
+
+}
+
+.phrase h1 {
+  text-transform: uppercase;
+  min-width: 260px;
+  position: absolute;
+  top: 32%;
+  left: 4%;
+  max-width: 40%;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  
+}
+
+.menu i {
+  visibility: collapse;
+}
+
+@media (max-width: 785px) {
+
+ .phrase h1 {
+  position: absolute;
+  top: 27%;
+  left: 58%;
+}
+
+.wrapper {
+  min-width: 200px;
+  padding: 10px;
+}
+
+.phrase_background {
+  width: 100%;
+}
+
+.content {
+  margin-bottom: 7px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+.navigation {
+  display: none;
+}
+.navigation {
+  display: flex;
+  min-width: 200px;
+  background: rgba(255, 255, 255, 0.79);
+  padding-bottom: 3%;
+  width: 42%;
+  z-index: 999;
+  position: absolute;
+  top: 60px;
+  left: 9px;
+}
+
+.menu a{
+  margin-bottom: 16px;
+  display: flex;
+  padding: 2% 0 0 8%;
+   
+}
+
+.menu{
+  flex-direction: column;
+  background: rgba(100,100,100,0.5);
+  width: 119%
+  margin: 0px auto;
+  display: block;
+  
+}
+.menu li{
+  background: rgba(0,159,227,0.9);
+  width: 150px;
+  font-size:14px;
+  float: left;
+  padding: 0.25em;
+  margin: 0.25em;
+}
+
+a.btn_orange {
+ height: 40px;
+ width: 36%;
+ font-size: 18px;
+ 
+}
+  .menu i {
+  visibility: visible;
+}
+
+}
+
+
